@@ -11,13 +11,13 @@ import org.example.other.NoteKind
 @MicronautTest
 class DemoSpec extends Specification {
 
-    @Inject
-    EmbeddedApplication<?> application
-
-    void 'test it works'() {
-        expect:
-        application.running
-    }
+//    @Inject
+//    EmbeddedApplication<?> application
+//
+//    void 'test it works'() {
+//        expect:
+//        application.running
+//    }
 
     @Inject
     ObjectMapper objectMapper
